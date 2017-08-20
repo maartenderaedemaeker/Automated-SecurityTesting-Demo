@@ -25,6 +25,8 @@ namespace SecurityTestingDemo.Models
         {
         }
 
+        public DbSet<Employee> Employees { get; set; }
+
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();
