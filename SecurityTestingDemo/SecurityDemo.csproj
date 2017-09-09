@@ -25,6 +25,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -250,7 +251,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Vulnerability\Index.cshtml" />
-    <Content Include="Views\Vulnerability\ReflectedXss.cshtml" />
+    <Content Include="Views\Vulnerability\ReflectedXssCombinedWithBrokenAuthentication.cshtml" />
     <Content Include="Views\Vulnerability\SqlInjection.cshtml" />
   </ItemGroup>
   <ItemGroup>
