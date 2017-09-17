@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "name": "automatedsecuritytestingdemo",
+  "private": true,
+  "devDependencies": {
+    "retire": "~1.4.0"
+  },
+  "dependencies": {
+  }
+}
